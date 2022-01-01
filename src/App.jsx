@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import ItemsList from "./components/ItemsList";
 import Item from "./components/Item";
-import Phrase from "./components/Phrase";
+import Sentence from "./components/Sentence";
 
 function App() {
   console.log(items);
@@ -15,7 +15,7 @@ function App() {
           <Item name={item.name} image={item.image} />
         ))}
       </ItemsList>
-      <Phrase />
+      <Sentence />
     </div>
   );
 }
