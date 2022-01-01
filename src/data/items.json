@@ -1,0 +1,8 @@
+[
+  { "name": "Love", "image": "love.svg" },
+  { "name": "Home", "image": "home.svg" },
+  { "name": "Skate", "image": "skate.svg" },
+  { "name": "I", "image": "i.svg" },
+  { "name": "Tree", "image": "tree.svg" },
+  { "name": "Sea", "image": "sea.svg" }
+]
