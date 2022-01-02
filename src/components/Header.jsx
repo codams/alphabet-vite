@@ -1,9 +1,9 @@
-const Header = () => {
+const Header = ({ handleSearch }) => {
   return (
     <div className="flex justify-between items-center mb-4">
       <h2 className="text-gray-900 text-xl">Alphabet</h2>
 
-      <div className=" p-2">
+      <div className=" p-2 hidden">
         <label>
           Search
           <input
@@ -11,6 +11,7 @@ const Header = () => {
             type="text"
             name="search"
             id="search"
+            onChange={handleSearch}
           />
         </label>
       </div>
