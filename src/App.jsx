@@ -6,7 +6,6 @@ import Item from "./components/Item";
 import Sentence from "./components/Sentence";
 
 function App() {
-  console.log(items);
   return (
     <div className="bg-gray-100 p-4 h-screen">
       <Header />
